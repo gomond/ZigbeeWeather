@@ -1,0 +1,21 @@
+# Enable Zigbee support in ESP-IDF (adjust as needed via menuconfig)
+# If your ESP-IDF build supports Zigbee, set the following in sdkconfig or via menuconfig:
+#
+# Example (may vary by ESP-IDF version):
+# CONFIG_ZIGBEE_ENABLE=y
+# CONFIG_ZBOSS_STACK=y
+#
+# To enable Zigbee interactively run:
+#
+# ```sh
+# pio run -t menuconfig -e esp32-c6-devkitc-1
+# ```
+#
+# Then enable the Zigbee/ZBOSS options under the Component Config menu,
+# save and exit. Finally run a clean rebuild:
+#
+# ```sh
+# pio run -t clean -e esp32-c6-devkitc-1
+# pio run -e esp32-c6-devkitc-1
+# ```
+
