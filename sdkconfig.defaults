@@ -2,8 +2,8 @@
 # If your ESP-IDF build supports Zigbee, set the following in sdkconfig or via menuconfig:
 #
 # Example (may vary by ESP-IDF version):
-# CONFIG_ZIGBEE_ENABLE=y
-# CONFIG_ZBOSS_STACK=y
+CONFIG_ZIGBEE_ENABLE=y
+CONFIG_ZBOSS_STACK=y
 #
 # To enable Zigbee interactively run:
 #
