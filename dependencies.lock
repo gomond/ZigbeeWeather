@@ -1,0 +1,35 @@
+dependencies:
+  esp-zigbee-lib:
+    dependencies: []
+    source:
+      path: C:\Users\gomond\OneDrive\Documents\PlatformIO\Projects\ZigbeeWeather\components\esp-zigbee-lib
+      type: local
+    version: 1.6.8
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.1'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.5.3
+  espressif/esp-zboss-lib:
+    dependencies: []
+    source:
+      path: C:\Users\gomond\OneDrive\Documents\PlatformIO\Projects\ZigbeeWeather\components\espressif__esp-zboss-lib
+      type: local
+    version: 1.6.4
+  idf:
+    source:
+      type: idf
+    version: 5.5.2
+direct_dependencies:
+- espressif/cmake_utilities
+- espressif/esp-zboss-lib
+- espressif/esp-zigbee-lib
+- idf
+manifest_hash: 55ae706a86edbc75f84de1e8ff8cebca2cc675a27f64989a32c2a7ac0280164c
+target: esp32c6
+version: 2.0.0

@@ -1,10 +1,21 @@
 {
-    "stm32-for-vscode.openOCDPath": false,
-    "idf.currentSetup": "C:\\Users\\gomond\\esp\\v5.5.2\\esp-idf",
-    "idf.flashType": "DFU",
-    "idf.portWin": "COM6",
-    "idf.monitorPort": "COM6",
-    "idf.openOcdConfigs": [
-        "board/esp32c6-builtin.cfg"
-    ]
+  "idf.flashType": "JTAG",
+  "stm32-for-vscode.openOCDPath": false,
+  "idf.espIdfPathWin": "C:\\Users\\gomond\\esp\\v5.5.2\\esp-idf",
+  "idf.toolsPathWin": "C:\\Users\\gomond\\.espressif",
+  "idf.pythonInstallPath": "C:\\Users\\gomond\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32c6-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c6",
+    "OPENOCD_USB_ADAPTER_LOCATION": "1-2"
+  },
+  "clangd.path": "C:\\Users\\gomond\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\gomond\\OneDrive\\Documents\\PlatformIO\\Projects\\ZigbeeWeather\\build"
+  ],
+  "idf.portWin": "COM4"
 }
